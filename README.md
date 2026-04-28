@@ -51,15 +51,6 @@ This project was created to practice Android UI development with Jetpack Compose
 
 ---
 
-## 📂 Architecture
-
-```text
-MainActivity.kt
-├── BusinessCardApp()
-├── HeaderSection()
-├── ContactSection()
-└── ContactRow()
-
 ▶️ How to Run
 Requirements
 
@@ -89,3 +80,12 @@ Android Emulator
 or
 
 Physical Device (USB Debugging enabled)
+
+## 📂 Architecture
+
+```text
+MainActivity.kt
+├── BusinessCardApp()
+├── HeaderSection()
+├── ContactSection()
+└── ContactRow()
