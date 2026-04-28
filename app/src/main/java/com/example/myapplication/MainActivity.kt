@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Call
@@ -41,6 +42,7 @@ fun BusinessCardApp() {
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .background(Color.Yellow)
             .padding(24.dp),
         verticalArrangement = Arrangement.SpaceBetween,
         horizontalAlignment = Alignment.CenterHorizontally
@@ -63,6 +65,7 @@ fun HeaderSection() {
         Image(
             painter = painterResource(R.drawable.android_logo),
             contentDescription = "Android Logo",
+
             modifier = Modifier.size(120.dp)
         )
 
